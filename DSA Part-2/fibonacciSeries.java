@@ -14,7 +14,8 @@ public class fibonacciSeries {
 
         System.out.println("ENTER NUMBER TILL YOU WANT FIBO SERIES :");
         int userInput = scan.nextInt();
-        
+        System.out.println(" ");
+
         if (userInput <= 0) {
             System.out.println("Number of terms must be positive.");
         } else if (userInput == 1) {
@@ -30,8 +31,7 @@ public class fibonacciSeries {
                 value1 = value2;
                 value2 = temp;
             }
-            System.out.println(); // Newline for clean output
+            System.out.println();
         }
-
     }
 }
